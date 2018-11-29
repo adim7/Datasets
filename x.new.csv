@@ -1,0 +1,6 @@
+﻿NPI,Gender,State,Region,Specialty,Opioids,N.Opioids,Opioid.P,female,male,mw,ne,s,w,DDS,MD,NP,PA
+1992989776,M,FL,S,DO,1,1,1,0,1,0,0,1,0,0,0,0,0
+1992992549,M,IL,MW,DDS,1,0,0,0,1,1,0,0,0,1,0,0,0
+1992994776,M,ID,W,PA,0,0,1,0,1,0,0,0,1,0,0,0,1
+1992996631,F,MD,S,MD,0,0,1,1,0,0,0,1,0,0,1,0,0
+1992998611,M,OR,W,MD,0,0,1,0,1,0,0,0,1,0,1,0,0
