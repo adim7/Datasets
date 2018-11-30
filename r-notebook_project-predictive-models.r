@@ -81,8 +81,8 @@ pc4.training <- pc4[training,-3]
 pc4.training.results <- pc4[training,3]
 
 ##Opioid.Prescriber as response variable - Training 60% of the data
-pc4.training <- pc4[training,-14]
-pc4.training.results <- pc4[training,14]
+#pc4.training <- pc4[training,-14]
+#pc4.training.results <- pc4[training,14]
 
 ##Opioids as response variable - Training 40% of the data
 pc4.test = pc4[-training,-3]
@@ -103,11 +103,11 @@ text(pc4.tree, cex=0.5)#Modify font size as needed
 
 
 ##Model with Opioid.Prescriber as response variable
-pc4.tree <- tree(Opioid.Prescriber ~ ., data=pc4[training,], mindev=0.001)
+#pc4.tree <- tree(Opioid.P ~ ., data=pc4[training,], mindev=0.001)
 
 #Visualize model
-plot(pc4.tree)
-text(pc4.tree, cex=0.5)#Modify font size as needed
+#plot(pc4.tree)
+#text(pc4.tree, cex=0.5)#Modify font size as needed
 
 
 #Obtain proportions of 1's from the training set in the tree endpoint for each data point in the test set
