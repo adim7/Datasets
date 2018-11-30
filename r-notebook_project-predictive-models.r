@@ -44,7 +44,7 @@ dim(x)
 
 #just a test function
 pc4 <- subset(x,select=c(1,6,7,8,10,11,12,13,14,15,16,17,18,19))
-head(x.mod, n = 5)
+head(pc4, n = 5)
 
 
 
