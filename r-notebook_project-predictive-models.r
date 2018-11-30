@@ -56,13 +56,13 @@ head(x.mod, n = 5)
 
 library("tree")
 
-pc4 <- read.csv() #Import final version of cleaned data set PrescribeClean4.0
-head(pc4, n = 5
+#pc4 <- read.csv() #Import final version of cleaned data set PrescribeClean4.0
+#head(pc4, n = 5
 
 #Confirm class_dimensions
-class(pc4)
-dim(pc4)
-summary(pc4)
+#class(pc4)
+#dim(pc4)
+#summary(pc4)
 
 #Remove NPI column
 pc4 <-pc4[,-1]
