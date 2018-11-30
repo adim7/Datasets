@@ -71,8 +71,8 @@ pc4 <-pc4[,-1]
 set.seed(12345)
 
 #Select random sample for Training data
-pc4_training <- sample(1:nrow(pc4), 0.6*nrow(pc4))
-###pc4_training
+training <- sample(1:nrow(pc4), 0.6*nrow(pc4))
+###training
 
 #Apportion Training and Test Sets and isolate response variable(Opioids and/or Opioids.Prescriber)
 
