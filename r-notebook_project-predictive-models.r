@@ -68,7 +68,7 @@ library("tree")
 pc4 <-pc4[,-1]
 
 #Set seed function
-Set.seed(12345)
+set.seed(12345)
 
 #Select random sample for Training data
 pc4_training <- sample(1:nrow(pc4), 0.6*nrow(pc4))
